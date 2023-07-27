@@ -1,6 +1,6 @@
 ﻿namespace LeetCodeTasks.Easy
 {
-    public class SplitWordBySeparator
+    public class SplitWordBySeparatorTask
     {
         public IList<string> SplitWordsBySeparator(IList<string> words, char separator)
         {

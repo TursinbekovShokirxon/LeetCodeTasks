@@ -7,7 +7,7 @@ namespace LeetCodeTasks
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(BalancedStringSplitTask.BalancedStringSplit("RLRRLLRLRL"));
+            Console.WriteLine(MinimizedStringLengthTask.MinimizedStringLength("ааабк"));
         }
         public static int MinSpeedOnTime(int[] dist, double hour)
         {
