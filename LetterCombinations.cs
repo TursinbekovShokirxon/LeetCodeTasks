@@ -29,7 +29,7 @@ namespace LeetCodeTasks
 
             void Backtracking(int index, string curr)
             {
-                if (curr.Length == digits.Length)`
+                if (curr.Length == digits.Length)
                 {
                     result.Add(curr);
                     return;
