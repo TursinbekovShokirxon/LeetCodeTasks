@@ -5,9 +5,12 @@ namespace LeetCodeTasks
 {
     internal class Program
     {
+
         static void Main(string[] args)
         {
-            Console.WriteLine(MinimizedStringLengthTask.MinimizedStringLength("ааабк"));
+            RemoveElementTask.StartUp();
+
+
         }
         public static int MinSpeedOnTime(int[] dist, double hour)
         {
@@ -20,10 +23,10 @@ namespace LeetCodeTasks
                     SumDistance /= hour;
                     int index = SumDistance.ToString().IndexOf(',');
                     if (index != -1) {
-                        if (SumDistance.ToString()[index + 1] >= 5)
-                        {
-                            SumDistance = (int)SumDistance + 1;
-                        }
+                        if (SumDistance.ToString()[index + 1] >= 5)SumDistance = (int)SumDistance + 1;
+                         
+                            
+                        
                         else
                         {
                             SumDistance = (int)SumDistance;
