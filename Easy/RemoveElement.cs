@@ -1,12 +1,12 @@
-﻿namespace LeetCodeTasks
+﻿namespace LeetCodeTasks.Easy
 {
     public class RemoveElementTask
     {
         public static void StartUp()
         {
             Console.WriteLine(RemoveElement(new int[] { 3, 2, 2, 3 }, 3));
-            
-       
+
+
         }
         public static int RemoveElement(int[] nums, int val)
         {

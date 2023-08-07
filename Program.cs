@@ -8,7 +8,7 @@ namespace LeetCodeTasks
 
         static void Main(string[] args)
         {
-            RemoveElementTask.StartUp();
+            ContainsDuplicateTask.StartUp();
 
 
         }
