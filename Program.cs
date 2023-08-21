@@ -1,4 +1,5 @@
 ﻿using LeetCodeTasks.Easy;
+using LeetCodeTasks.Medium;
 using System;
 
 namespace LeetCodeTasks
@@ -8,9 +9,7 @@ namespace LeetCodeTasks
 
         static void Main(string[] args)
         {
-            ContainsDuplicateTask.StartUp();
-
-
+            DuplicateZerosTask.StartUp();
         }
         public static int MinSpeedOnTime(int[] dist, double hour)
         {
